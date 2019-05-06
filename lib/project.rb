@@ -3,8 +3,8 @@ class Project
   attr_accessor :title, :backers
 
   def initialize(title)
-    @title=title
-    @backers=[]
+    self.title=title#@title=title or 
+    self.backers=[]#@backers=[]
   end
 
   def add_backer(backer)
